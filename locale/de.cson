@@ -1,4 +1,6 @@
-name: "Deutsch"
+lang:
+    name: "Deutsch"
+    case: false
 game: "Stein, Schere, Papier"
 objects: ["ein Stein", "die Schere", "das Papier"]
 results: ["Sieg", "Verlieren", "Zeichnen"]
@@ -8,5 +10,5 @@ bot:
 message:
     choice: "die Wahl: "
     play:
-        request: "Spielen wir?(ja/nein)"
+        request: "Spielen wir weiter?(ja/nein)"
         arguments: ["ja", "nein"]
